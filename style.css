@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.input  {
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+}
+
+.output {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    margin: 3em;
+}
