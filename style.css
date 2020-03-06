@@ -8,11 +8,25 @@
     display: flex;
     flex-direction: column;
     margin: 3em;
+    width: 400px;
+    height: 800px;
+    border: solid;
+    padding: 1em;
+
 }
 
 .output {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+    height: 800px;
     border: solid;
     margin: 3em;
+    padding: 1em;
+}
+
+.output > p {
+    padding: .5em;
 }
